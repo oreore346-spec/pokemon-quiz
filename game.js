@@ -82,7 +82,7 @@ document.getElementById('share-x-btn').addEventListener('click', () => {
   const rankElem = document.getElementById('final-rank');
   const rankText = rankElem.textContent.trim();
   
-  const tweetText = `スマホロトム風ポケモンクイズに挑戦したよ！📱⚡️\n\n【${modeText} / ${genText}】\n🏆 ランク：${rankText}\n🎯 正解数：${gameState.score}問\n\n#ポケモンシルエットクイズ #ポケモン図鑑風`;
+  const tweetText = `ポケモン図鑑風シルエットクイズに挑戦したよ！📱⚡️\n\n【${modeText} / ${genText}】\n🏆 ランク：${rankText}\n🎯 正解数：${gameState.score}問\n\n#ポケモンシルエットクイズ #ポケモン図鑑風\nhttps://oreore346-spec.github.io/pokemon-quiz/`;
   
   const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
   window.open(url, '_blank');
